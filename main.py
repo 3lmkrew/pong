@@ -23,8 +23,8 @@ score_board = ScoreBoard()
 
 # call listen() method to be able to use keyboard keys.
 screen.listen()  # must call first to activate onkey() buttons, pass screen object
-screen.onkey(left_paddle.go_up, "w")  # left paddle move UP by pressing 'a'
-screen.onkey(left_paddle.go_down, "s")  # right paddle move DOWN by pressing 'z'
+screen.onkey(left_paddle.go_up, "w")  # left paddle move UP by pressing 'w'
+screen.onkey(left_paddle.go_down, "s")  # left paddle move DOWN by pressing 's'
 screen.onkey(right_paddle.go_up, "Up")  # right paddle move UP by pressing 'Up arrow'
 screen.onkey(right_paddle.go_down, "Down")  # right paddle move DOWN by pressing 'Down arrow'
 
