@@ -1,3 +1,6 @@
+# By: 3lmkrew
+# Date: 06/03/2021
+
 import turtle
 import time
 from paddle import Paddle
